@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "movie-recommender- system"
+version = "0.1.0"
+description = ""
+authors = ["Sherwin"]
+license = "GPL2"
+package-mode=false
+# readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+streamlit = "^1.33.0"
+tensorflow = "^2.16.1"  
+requests = "^2.31.0"
+pymongo = "^4.6.3"
+scikit-learn = "^1.4.2"
+streamlit-shadcn-ui = "^0.1.0"
+streamlit-lottie = "^0.0.5"
+google-api-python-client = "^2.24.0"
+google-cloud-dialogflow = "^2.30.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

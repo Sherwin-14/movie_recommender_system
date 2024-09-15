@@ -1,0 +1,2 @@
+artefacts/* filter=lfs diff=lfs merge=lfs -text
+artefacts/ filter=lfs diff=lfs merge=lfs -text
