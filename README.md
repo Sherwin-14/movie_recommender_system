@@ -1,4 +1,4 @@
-Movie Recommendation System 
+# Movie Recommendation System 
 
 This project is a comprehensive movie recommendation system that utilizes the Bag of Words technique and Cosine Similarity to suggest movies based on user preferences. The system leverages the TMDB API to fetch detailed information about movies, including directors, ratings, and actors. A user-friendly web application was built using Streamlit, allowing users to interact with the system and receive personalized movie recommendations.
 
